@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+  height: 48px;
+  color: #989898;
+  border: 1px solid #989898;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+}
